@@ -1,1 +1,17 @@
+# Credits: https://github.com/github/gitignore/blob/master/Node.gitignore
+
+# OS-specific
+.DS_Store
+
+# Vagrant Stuff
 .vagrant
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Coverage directory used by tools like istanbul
+coverage
