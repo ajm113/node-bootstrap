@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise64"
   config.vm.network "private_network", ip: "192.168.33.11"
-  config.vm.hostname = "nodejs-foundation"
+  config.vm.hostname = "node-bootstrap"
   config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
 
   # Install node, npm, bower, and gulp.
