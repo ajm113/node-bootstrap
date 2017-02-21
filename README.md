@@ -1,4 +1,4 @@
-# Nodejs Vagrant Foundation
+# Node Bootstrap
 *Simple bootstrap Vagrantfile for setting up simple Node workbench.*
 
 ## Install
